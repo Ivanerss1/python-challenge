@@ -3,7 +3,7 @@
 for this challenge we had to great a phython code to read and analyse a cvs file for date set of votes to a small town.
 
 Using that date set we had to find out the total number of vote.
-then break it down to the percentage each candidate won, and the end input the result of the winning candidate.
+Then break it down to the percentage each candidate won, and at the end input the result of the winning candidate.
 
 Citation:
 
