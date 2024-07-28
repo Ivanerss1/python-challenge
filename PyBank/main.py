@@ -1,8 +1,9 @@
-import csv
 import os
+import csv
 
 # Define the file path
-csvpath = '/users/ivaniac/Documents/Starter_Code/PyBank/Resources/budget_data.csv'
+script_dir = os.path.dirname(os.path.abspath(__file__))
+csvpath = os.path.join(script_dir, "Resources", "budget_data.csv")
 output_file = "financial_analysis.txt"
 
 # Variables

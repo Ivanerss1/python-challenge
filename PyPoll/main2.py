@@ -1,8 +1,9 @@
-import csv
 import os
+import csv
 
 # Define the file path
-csvpath = '/Users/ivaniac/Documents/Starter_Code/PyPoll/Resources/election_data.csv'
+script_dir = os.path.dirname(os.path.abspath(__file__))
+csvpath = os.path.join(script_dir, "Resources", "election_data.csv")
 output_file = 'election_results.txt'
 
 # Variables
